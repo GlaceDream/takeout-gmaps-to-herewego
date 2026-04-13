@@ -12,7 +12,12 @@ Convert Google Maps address lists exported from Google Takeout in CSV format int
 
 3. Move CSV files in `data-to-convert` folder.
 
-4. Run command `npm run convert`.
+4. Run commands:
+
+    ```sh
+    npm install
+    npm run convert
+    ```
 
 5. Get converted GeoJSON files from `converted-data` folder.
 
