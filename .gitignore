@@ -1,0 +1,7 @@
+.env
+.git
+node_modules
+
+converted-data
+data-to-convert/*
+!data-to-convert/.gitkeep
